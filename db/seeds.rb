@@ -1,3 +1,7 @@
+puts 'Cleaning database'
+
+Movie.destroy_all
+
 puts 'Creating Movies'
 3.times do
   sleep(1)
